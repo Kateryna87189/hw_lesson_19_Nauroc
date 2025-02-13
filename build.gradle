@@ -12,12 +12,9 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.28.1'//selenium-java
     implementation 'org.testng:testng:7.10.2'//testng
-    implementation 'org.slf4j:slf4j-nop:2.0.7'//настройка логирования
+    implementation 'ch.qos.logback:logback-classic:1.5.16' // зависимость от Logback для логирования
 }
 
-test {
-    useJUnitPlatform()
-}
 test {
     useTestNG()
 }

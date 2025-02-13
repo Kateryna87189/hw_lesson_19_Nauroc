@@ -10,11 +10,6 @@ public class LoginTests extends TestBase {
     @BeforeMethod
     public void preCondition(){
 
-//       if (app.getUserHelper().isSignOutButtonPresent()){
-//           logger.info("user already logged in Sing out...");
-//            app.getUserHelper().clickOnSignOutButton();
-//       }else {
-//            logger.info("LOGIN link ist present. Not need to Sign out");
     }
     @Test
     public void testLogin() {
@@ -32,7 +27,7 @@ public class LoginTests extends TestBase {
     }
     @AfterMethod
     public void postCondition(){
-        //app.getUserHelper().clickOnSignOutButton();
+
 
     }
 }

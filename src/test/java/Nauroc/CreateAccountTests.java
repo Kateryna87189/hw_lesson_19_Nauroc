@@ -8,9 +8,6 @@ import org.testng.annotations.Test;
 public class CreateAccountTests extends TestBase{
     @BeforeMethod
     public void precondition() {
-//        if (app.getCreateAccountHelper().isElementPresent(By.xpath("//a[contains(text(),'Реєстрація')]"))) {
-//            app.getUserHelper().clickOnSignOutButton();
-//        }
 
     }
 
